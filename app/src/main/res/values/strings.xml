@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ComputingTips</string>
+    <string name="spinner_title">Tip Percent</string>
+</resources>
