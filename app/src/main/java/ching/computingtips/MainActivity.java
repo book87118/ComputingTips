@@ -168,15 +168,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
             showAnswer = (price+ (price/1.065*d_percent))/i_people;
             text_answer.setText("Total : "+String.valueOf(showAnswer));
-//            showTip = price * d_percent;
-//            showTax = (price+showTip) * 0.065;
-//            text_tex.setText("Tax : "+String.valueOf(showTax));
-//            price = price+showTax+showTip;
-//            showAnswer = price/i_people;
-//
-
-
-
 
         }catch (NumberFormatException e){
         }
